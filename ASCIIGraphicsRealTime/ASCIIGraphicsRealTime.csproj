@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.5.1.4349" />
+    <PackageReference Include="Emgu.CV.Bitmap" Version="4.5.1.4349" />
+    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.5.1.4349" />
+    <PackageReference Include="Emgu.CV.UI" Version="4.5.1.4349" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ASCIIGraphics">
+      <HintPath>..\ASCIIGraphicsConsole\ASCIIGraphics\bin\Release\ASCIIGraphics.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
